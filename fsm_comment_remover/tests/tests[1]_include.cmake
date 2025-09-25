@@ -1,0 +1,5 @@
+if(EXISTS "/home/kuruteiru/dev/utb/utb-algorithms-and-data-structures/fsm_comment_remover/tests/tests[1]_tests.cmake")
+  include("/home/kuruteiru/dev/utb/utb-algorithms-and-data-structures/fsm_comment_remover/tests/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
